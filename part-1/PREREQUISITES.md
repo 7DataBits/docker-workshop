@@ -14,8 +14,9 @@ workshop session but that will take time away from the planned topics.
   * Although Internet Explorer is usable here, I would not recommend it
 * Working git tooling: Download [here](https://git-scm.com/download/win)
   * There will be prepared files to be downloaded either from a git repo or from the USB stick I will bring with me
-  * Using the git bash coming with those tooling is sometimes very helpful, although you should also be able to work
-    with Powershell or Windows CMD
+* A working command line interface for executing (a lot!) of CLI commands
+  * The git tooling link from above already includes the Git Bash but you should also be able to work with Powershell or
+    Windows CMD
 * Make sure you can execute the following commands without errors after you installed Docker:
   * `docker version`
   * `docker ps`
