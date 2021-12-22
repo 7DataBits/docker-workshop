@@ -18,6 +18,12 @@ In build-3 execute:
 3. `docker run --rm test echo "This is different!"`
 4. `docker run --rm test custom`
 
+In build-4 execute:
+1. `docker build . -t test`
+2. `docker run --rm test`
+3. `docker history test`
+
+
 # Additional Tasks
 
 * **build-task-1**: Fix the prepared example in to print a "Yay, you fixed me!" message when called with the argument "
