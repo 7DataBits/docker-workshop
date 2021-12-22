@@ -1,0 +1,5 @@
+FROM alpine
+
+COPY echo.txt /myecho.txt
+
+CMD cat /myecho.txt
