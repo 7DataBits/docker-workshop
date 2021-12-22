@@ -15,8 +15,8 @@ Execute these commands:
 11. `docker volume list`
 12. `docker volume create test`
 13. `docker volume ls`
-14. `docker run --rm -v test:/mysite -d --name temp alpine`
-15. `docker exec -it nginx bash`
+14. `docker run --rm -v test:/mysite -d --name temp nginx`
+15. `docker exec -it temp bash`
   1. `echo "This is my custom website now!" > /mysite/index.html`
   2. _CTRL+D_ or type `exit` command to get out of the container
 16. `docker stop temp`
