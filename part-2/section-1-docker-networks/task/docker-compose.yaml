@@ -1,0 +1,13 @@
+version: "3.9"
+services:
+  postgres:
+    image: postgres:13
+    environment:
+      POSTGRES_HOST_AUTH_METHOD: password
+      POSTGRES_PASSWORD: "postgres"
+    networks:
+      - db
+
+networks:
+  db:
+    name: custom-db-network
