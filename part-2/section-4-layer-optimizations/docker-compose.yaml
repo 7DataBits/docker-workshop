@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+  naive:
+    image: naive
+    build:
+      context: naive/.
+  smarter:
+    image: smarter
+    build:
+      context: smarter/.
+  smartest:
+    image: smartest
+    build:
+      context: smartest/.
